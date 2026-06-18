@@ -1,10 +1,10 @@
 
 export type User = {
     id:string;
-    dispalayName: string;
+    displayName: string;
     email:string;
     token:string;
-    imageUrl: string;
+    imageUrl?: string;
 }
 
 export type LoginCreds ={
